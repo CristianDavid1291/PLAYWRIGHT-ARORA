@@ -1,0 +1,14 @@
+import logging
+
+class Logger:
+
+    @staticmethod
+    def log():
+        logging.basicConfig(
+            filename="logs/app.log",
+            level=logging.INFO,
+            format="%(asctime)s - %(levelname)s - %(message)s",
+            datefmt="%Y-%m-%d %H:%M:%S"
+            )
+        return logging.getLogger()
+        
