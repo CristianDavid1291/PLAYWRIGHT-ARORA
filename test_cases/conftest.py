@@ -19,7 +19,7 @@ def browser_type_launch_args(browser_type_launch_args):
     return {
         **browser_type_launch_args,
         "firefox_user_prefs": {
-       #     "dom.webnotifications.enabled": False, 
+           "dom.webnotifications.enabled": False, 
         }
     }
 

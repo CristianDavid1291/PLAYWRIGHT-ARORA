@@ -1,0 +1,15 @@
+# Core testing framework
+pytest==7.4.3
+pytest-playwright==0.4.3
+playwright==1.40.0
+
+# Allure reporting
+allure-pytest==2.13.2
+allure-python-commons==2.13.2
+
+# Utilities
+python-dotenv==1.0.0
+
+# Development tools (optional)
+pytest-xdist==3.3.1
+pytest-html==4.1.1
